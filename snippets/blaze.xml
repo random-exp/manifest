@@ -42,7 +42,7 @@
 
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
-  <project path="frameworks/base" name="frameworks_base" remote="blaze-xt" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="blaze-xt" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="blaze" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="blaze" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
@@ -88,7 +88,7 @@
   <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" /-->
 
   <!-- system repos -->
-  <project path="system/core" name="system_core" groups="pdk" remote="blaze-gitlab" />
+  <project path="system/core" name="system_core" groups="pdk" remote="blaze-xt" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="blaze" />
   <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
