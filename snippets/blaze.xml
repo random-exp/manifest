@@ -11,6 +11,10 @@
            fetch="https://github.com/ProjectBlaze/"
            revision="14" />
 
+  <remote  name="blaze-xt"
+           fetch="https://github.com/blaze-xt/"
+           revision="14" />
+
    <remote  name="ProjectBlaze-Devices"
            fetch="https://github.com/ProjectBlaze-Devices/"
            revision="13" />   
@@ -61,7 +65,7 @@
 
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
+  <project path="frameworks/base" name="fwb" groups="pdk-cw-fs,pdk-fs" remote="blaze-xt" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="blaze" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="blaze" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
@@ -78,20 +82,20 @@
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="blaze" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk" remote="blaze" />
-  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
+  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze-xt" />
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" remote="blaze" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk" remote="blaze" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk" remote="blaze" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk" remote="blaze" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze-xt" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk" remote="blaze" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="blaze" />
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
-  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze" />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze-xt" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze-gitlab" />
